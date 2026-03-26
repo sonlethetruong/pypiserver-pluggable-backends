@@ -207,7 +207,7 @@ def main(argv: t.Sequence[str] = None) -> None:
         main_app = app
 
     bottle.run(
-        app=app,
+        app=main_app,
         host=config.host,
         port=config.port,
         server=config.server_method,
